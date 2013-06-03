@@ -1,4 +1,14 @@
 DemoApp::Application.routes.draw do
+  resources :microposts
+
+
+  resources :users
+
+
+  get "test/index"
+
+  get "test/inde"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
